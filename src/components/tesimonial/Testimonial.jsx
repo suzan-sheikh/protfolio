@@ -4,6 +4,8 @@ import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
 import { testimonialOne,testimonialTwo, quote } from "../../assets";
 import { useState } from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function SampleNextArrow(props) {
