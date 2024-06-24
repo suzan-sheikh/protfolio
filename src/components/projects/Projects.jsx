@@ -14,43 +14,28 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 text-justify">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Study Platform"
+          des=" This project is an advanced educational platform that allows students to book sessions, create and manage their notes, and access various learning materials. It incorporates Firebase for secure email-password registration, and Google and GitHub login options. MongoDB is utilized for backend data management through APIs."
           src={projectOne}
+          github="https://github.com/programming-hero-web-course1/b9a12-client-side-suzan-sheikh"
+          liveSite="https://brainbond-e920d.web.app"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Job Hunter"
+          des="You Can apply ultimate destination for career opportunities in this website! Browse through thousands of job listings across various industries, from tech to healthcare, and everything in between. I user-friendly interface makes job searching a breeze, while our advanced search filters help you the perfect match for your skills."
           src={projectTwo}
+            github="https://github.com/Porgramming-Hero-web-course/b9a11-client-side-suzan-sheikh"
+            liveSite="https://upwork-8699b.web.app"
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Tourism Management"
+          des="The Tursum Management website, developed with React, features Lottie animations, typewriter effects, and form handling via React Hook Form. It includes Swiper sliders, AOS scrolling animations, theme toggling, and Firebase-based user authentication. MongoDB manages tour data, and private routes secure content."
           src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+            github="https://github.com/programming-hero-web-course-4/B9A10-client-side-suzan-sheikh"
+            liveSite="https://awt-tourism.web.app"
+        />        
       </div>
     </section>
   );

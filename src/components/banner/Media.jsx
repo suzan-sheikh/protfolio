@@ -8,15 +8,21 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a href="https://www.facebook.com/mdsuzanskh" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>            
+            </a>
+            <a href="https://x.com/mdsuzanksh" target="_blank" rel="noopener noreferrer">            
+              <span className="bannerIcon">
+                <FaTwitter />
+              </span>            
+            </a>
+            <a href="https://www.linkedin.com/in/mdsuzanskh" target="_blank" rel="noopener noreferrer">            
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
         </div>
         <div>
@@ -24,18 +30,26 @@ const Media = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
+            <a href="https://react.dev/learn" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <FaReact />
+              </span>            
+            </a>
+            <a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <SiNextdotjs />
+              </span>
+            </a>
+            <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer">
+              <span className="bannerIcon">
+                <SiTailwindcss />
+              </span>
+            </a>
+            <a href="https://help.figma.com/hc/en-us" target="_blank" rel="noopener noreferrer">              
+              <span className="bannerIcon">
+                <SiFigma />
+              </span>
+            </a>
           </div>
         </div>
       </div>
