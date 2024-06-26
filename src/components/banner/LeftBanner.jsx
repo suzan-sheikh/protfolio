@@ -1,5 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
+import logo from '../../assets/images/download.gif'
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -30,6 +31,16 @@ const LeftBanner = () => {
       </div>
      {/* Media */}
      <Media />
+
+     <div className="flex gap-4 justify-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          
+          <div className="w-60 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300"> 
+          Download Resume
+          <img src={logo} alt="image" className="w-6 ml-3" />
+          </div>            
+        </a>
+      </div>
     </div>
   );
 }
