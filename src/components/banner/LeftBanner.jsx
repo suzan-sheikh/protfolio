@@ -33,7 +33,7 @@ const LeftBanner = () => {
      <Media />
 
      <div className="flex gap-4 justify-center">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1pmFw76mdaw9Jiuyzu0wUFjCS_Hru1hX4/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
           
           <div className="w-60 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300"> 
           Download Resume
