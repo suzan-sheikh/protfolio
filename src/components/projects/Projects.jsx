@@ -19,21 +19,24 @@ const Projects = () => {
           title="Study Platform"
           des=" This project is an advanced educational platform that allows students to book sessions, create and manage their notes, and access various learning materials. It incorporates Firebase for secure email-password registration, and Google and GitHub login options. MongoDB is utilized for backend data management through APIs."
           src={projectOne}
-          github="https://github.com/programming-hero-web-course1/b9a12-client-side-suzan-sheikh"
+          github="https://github.com/suzan-sheikh/Collaborative-Study-Platform-Client"
+          githubServer="https://github.com/suzan-sheikh/Collaborative-Study-Platform-Server"
           liveSite="https://brainbond-e920d.web.app"
         />
         <ProjectsCard
           title="Job Hunter"
           des="You Can apply ultimate destination for career opportunities in this website! Browse through thousands of job listings across various industries, from tech to healthcare, and everything in between. I user-friendly interface makes job searching a breeze, while our advanced search filters help you the perfect match for your skills."
           src={projectTwo}
-            github="https://github.com/Porgramming-Hero-web-course/b9a11-client-side-suzan-sheikh"
+            github="https://github.com/suzan-sheikh/Job-Hunter-Client"
+            githubServer="https://github.com/suzan-sheikh/Job-Hunter-Server"
             liveSite="https://upwork-8699b.web.app"
         />
         <ProjectsCard
           title="Tourism Management"
           des="The Tursum Management website, developed with React, features Lottie animations, typewriter effects, and form handling via React Hook Form. It includes Swiper sliders, AOS scrolling animations, theme toggling, and Firebase-based user authentication. MongoDB manages tour data, and private routes secure content."
           src={projectThree}
-            github="https://github.com/programming-hero-web-course-4/B9A10-client-side-suzan-sheikh"
+            github="https://github.com/suzan-sheikh/Tourism-Management"
+            githubServer="https://github.com/suzan-sheikh/Tourism-Management-Server"
             liveSite="https://awt-tourism.web.app"
         />        
       </div>
